@@ -18,18 +18,63 @@ header{
     background-color: var(--rosa-claro);
 }
 article{
-    width: 70%;
+    width: 80%;
     height: 800px;
     display: block;
     float: left;
     background-color: var(--laranja);
 }
+
 aside{
-    width: 30%;
+    width: 20%;
     height: 800px;
     display: block;
     float: left;
-    background-color: var(--marrom-claro);
+    background-color: white;
+}
+aside h2{
+    text-align: center;
+    font-size: 40px;
+    color: var(--marrom-avermelhado);
+}
+#foods li {
+    list-style-type: none;
+    position:relative;
+}
+#foods li:before {
+    content: '•';
+    display: inline-block;
+    position: absolute;
+    left: -1em;
+    color: var(--marrom-avermelhado);
+}
+
+#foods li{
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+#foods h3{
+    margin-left: 40px;
+    font-size: 30px;
+    color: var(--marrom-avermelhado);
+}
+#foods{
+    float: left;
+}
+#precos {
+    margin-left: 250px;
+}
+#precos li{
+    margin-left: 30px;
+    font-size: 20px;
+    list-style-type: none;
+}
+#precos h3{
+    margin-left: 40px;
+    font-size: 30px;
+    color: transparent;
 }
 footer{
     width: 100%;
