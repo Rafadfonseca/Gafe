@@ -5,15 +5,27 @@
     --marrom-claro:#AB5009;
     --marrom-avermelhado: #9E4910;
     --rosa-claro: #ffc7a2;
+    --rosa-fundo: #fdf5d8;
 }
 @font-face {
     font-family: 'Raleway';
     src: url(font/Raleway/Raleway-Italic-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: 'Hellomorgan';
+    src: url(font/hellomorgan/HelloMorgan.ttf);
+}
+@font-face {
+    font-family: 'Calinastiya';
+    src: url(font/calinastiya/Calinastiya\ demo.ttf);
+}
+@font-face {
+    font-family: 'Pinkstyle';
+    src: url(font/pinky_style_2/Pinky\ Style.ttf);
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: Raleway;
 }
 header{
     width: 100%;
@@ -24,7 +36,7 @@ header{
 }
 article{
     width: 80%;
-    height: 800px;
+    height: 940px;
     display: block;
     float: left;
     background-color: var(--laranja);
@@ -32,19 +44,24 @@ article{
 
 aside{
     width: 20%;
-    height: 800px;
+    height: 940px;
     display: block;
     float: left;
-    background-color: white;
+    background-color: var(--rosa-fundo);
 }
 aside h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
     color: var(--marrom-avermelhado);
+    font-family: 'Calinastiya';
 }
 #foods li {
     list-style-type: none;
     position:relative;
+    margin-left: 30px;
+    font-size: 15px;
+    display: block;
+    font-family: 'Raleway';
 }
 #foods li:before {
     content: '•';
@@ -53,33 +70,37 @@ aside h2{
     left: -1em;
     color: var(--marrom-avermelhado);
 }
-
-#foods li{
-    margin-left: 30px;
-    font-size: 20px;
-    
-}
-
 #foods h3{
     margin-left: 40px;
     font-size: 30px;
     color: var(--marrom-avermelhado);
+    font-family: 'Raleway';
 }
 #foods{
     float: left;
 }
 #precos {
-    margin-left: 250px;
+    margin-left: 165px;
+    display: block;
 }
 #precos li{
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: none;
+    font-family: Raleway;
 }
 #precos h3{
     margin-left: 40px;
     font-size: 30px;
     color: transparent;
+}
+#imgs{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#imgs img{
+    width: 120px;
+    height: 120px;
 }
 footer{
     width: 100%;
