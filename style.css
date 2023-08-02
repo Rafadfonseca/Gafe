@@ -71,6 +71,8 @@ article img{
     text-align: center;
     font-family: arial;
     background-color: aliceblue;
+    float: left;
+    border-radius: 25px;
   }
   
   .price {
@@ -86,8 +88,9 @@ article img{
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 200px;
     font-size: 18px;
+    border-radius: 25px;
 
   }
   
@@ -98,6 +101,7 @@ article img{
   .card img{
     width: 200px;
     height: 200px;
+    border-radius: 50px;
   }
 
 
