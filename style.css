@@ -104,8 +104,62 @@ aside h2{
 }
 footer{
     width: 100%;
-    height: 150px;
+    height: 270px;
     display: block;
     float: left;
     background-color: var(--laranja-folha);
+}
+#footer1{
+    float: left;
+}
+
+#h3g{
+    font-family: pinkstyle;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#inputinsta{
+    margin-top: 5px;
+    width: 60px;
+    height: 35px;
+    margin-left: 10px;
+}
+#inputface{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+}
+.pfooter{
+    margin-left: 10px;
+}
+
+.divg{
+    width: 200px;
+    height: 210px;
+    background-color: #fdf5d8;
+    margin-top: 20px;
+    float: left;
+    margin-left: 130px;
+    border-radius: 50%;
+}
+#h3gg{
+    font-family: Pinkstyle;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.imgss{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+#orelhas{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+
 }
