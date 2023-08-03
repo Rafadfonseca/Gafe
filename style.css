@@ -111,12 +111,13 @@ footer{
 }
 #footer1{
     float: left;
+    font-family: 'Raleway';
 }
 
 #h3g{
     font-family: pinkstyle;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 #inputinsta{
     margin-top: 5px;
@@ -130,10 +131,21 @@ footer{
     height: 30px;
     margin-left: 25px;
 }
+#inputwhats{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    margin-left: 23px;
+}
 .pfooter{
     margin-left: 10px;
+    font-size: 13px;
 }
-
+#whats{
+    font-family: pinkstyle;
+    margin-left: 10px;
+    margin-top: 15px;
+}
 .divg{
     width: 200px;
     height: 210px;
@@ -142,9 +154,14 @@ footer{
     float: left;
     margin-left: 130px;
     border-radius: 50%;
+    position: relative;top:0px;left: 0px;
+}
+.nomescats{
+    font-size: 15px;
+    font-family: 'pinkstyle';
 }
 #h3gg{
-    font-family: Pinkstyle;
+    font-family: 'pinkstyle';
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
@@ -154,12 +171,71 @@ footer{
     height: 150px;
     margin-top: 5px;
     border-radius: 50%;
+
 }
-#orelhas{
+#orelhasd{
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid #fdf5d8;
+    float: left;
+    position: absolute;
+    margin-left: 220px;
+    transform: rotate(320deg);
+}
+#orelhase{
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid #fdf5d8;
+float: left;
+position: absolute;
+transform: rotate(30deg);
+margin-left: 370px;
+}
+#orelhad2{
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid #fdf5d8;
+    float: left;
+    position: absolute;
+    margin-left: 550px;
+    transform: rotate(320deg);
+}
+#orelhae2{
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid #fdf5d8;
+    float: left;
+    position: absolute;
+    margin-left: 710px;
+    transform: rotate(30deg);
+}
+#orelhad3{
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid #fdf5d8;
+    float: left;
+    position: absolute;
+    margin-left: 880px;
+    transform: rotate(320deg);
+}
+#orelhae3{
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 100px solid #fdf5d8;
+    float: left;
+    position: absolute;
+    margin-left: 1040px;
+    transform: rotate(30deg);
 }
