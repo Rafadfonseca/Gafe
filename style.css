@@ -52,16 +52,27 @@ margin-left: 20px;
 border-radius: 40px;
 margin-bottom: 2px;
 margin-top: 40px;
+margin-left: 150px;
 }
 
 article p{
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Raleway';
-
+    text-align: center;
 }
 
+
+
 article h1{
+    font-size:45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Calinastiya';
+    text-align: center;
+}
+article h2{
     font-size:45px;
     margin-left: 20px;
     margin-top: 10px;
