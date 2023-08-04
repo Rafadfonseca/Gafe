@@ -41,7 +41,7 @@ article{
     height: 940px;
     display: block;
     float: left;
-    background-color: var(--laranja); 
+   background-color: var(--rosa-claro);
 }
 
 .destaque{
@@ -59,7 +59,7 @@ margin-top: 40px;
     margin-left: 20px;
     margin-top: 10px;
     font-family: 'Pinkstyle';
-    color: palevioletred;
+   color: #000;
 }
 
 article p{
