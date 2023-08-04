@@ -107,7 +107,7 @@ footer{
     height: 270px;
     display: block;
     float: left;
-    background-color: var(--laranja-folha);
+    background-color: var(--rosa-claro);
 }
 #footer1{
     float: left;
@@ -133,9 +133,9 @@ footer{
 }
 #inputwhats{
     margin-top: 5px;
-    width: 35px;
-    height: 35px;
-    margin-left: 23px;
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
 }
 .pfooter{
     margin-left: 10px;
@@ -171,7 +171,7 @@ footer{
     height: 150px;
     margin-top: 5px;
     border-radius: 50%;
-
+    padding-top: 10px;
 }
 #orelhasd{
     width: 0;
