@@ -45,7 +45,7 @@ article{
 }
 
 .destaque{
-height: 250px;
+height: 270px;
 width: 700px;
 background-color: aliceblue;
 margin-left: 20px;
@@ -55,13 +55,15 @@ border-radius: 40px;
 article p{
     margin-top: 10px;
     margin-left: 20px;
+    font-family: 'Raleway';
 
 }
 
 article h1{
+    font-size:45px;
     margin-left: 20px;
     margin-top: 10px;
-    
+    font-family: 'Calinastiya';
 }
 
 article img{
