@@ -41,18 +41,25 @@ article{
     height: 940px;
     display: block;
     float: left;
-   background-color: var(--rosa-claro);
+    background-color: var(--rosa-claro);
 }
 
 .destaque{
 height: 270px;
 width: 700px;
-background-color: aliceblue;
+background-color: var(--rosa-fundo);
 margin-left: 20px;
 border-radius: 40px;
 margin-bottom: 2px;
 margin-top: 40px;
 margin-left: 150px;
+}
+.destaque img{
+    float: left;
+    margin-left: 30px
+}
+#ultima{
+    width: 160px;
 }
 
 .destaque h1{
@@ -60,7 +67,7 @@ margin-left: 150px;
     margin-left: 20px;
     margin-top: 10px;
     font-family: 'Pinkstyle';
-   color: #000;
+   color: var(--marrom-avermelhado);
 }
 
 article p{
@@ -70,8 +77,6 @@ article p{
     font-family: 'Raleway';
     text-align: center;
 }
-
-
 
 article h1{
     font-size:45px;
@@ -101,11 +106,10 @@ article img{
     height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-   margin-left: 30px;
+   margin-left: 70px;
    margin-top: 20px;
     text-align: center;
-    font-family: arial;
-    background-color: aliceblue;
+    background-color: var(--rosa-fundo);
     float: left;
     border-radius: 25px;
     display: block;
