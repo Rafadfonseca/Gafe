@@ -59,7 +59,7 @@ article{
     height: 940px;
     display: block;
     float: left;
-    background-color: var(--rosa-claro);
+    background-color: #ffac79;
 }
 header a{
     color: var(--marrom-claro);
